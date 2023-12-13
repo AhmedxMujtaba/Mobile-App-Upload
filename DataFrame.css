@@ -1,0 +1,28 @@
+.data-frame-child {
+  position: absolute;
+  top: 25.5px;
+  left: 17.5px;
+  border-top: 1px solid var(--color-slategray);
+  box-sizing: border-box;
+  width: 169px;
+  height: 1px;
+}
+.empty-data {
+  position: absolute;
+  top: 0px;
+  left: 58px;
+  font-weight: 300;
+}
+.data-frame {
+  position: relative;
+  background-color: #111f4f;
+  width: 204px;
+  height: 102px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
